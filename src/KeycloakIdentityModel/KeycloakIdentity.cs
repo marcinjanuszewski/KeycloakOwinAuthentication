@@ -51,7 +51,7 @@ namespace KeycloakIdentityModel
         /// <summary>
         ///     Gets a value that indicates whether the identity has been authenticated
         /// </summary>
-        public override bool IsAuthenticated => _kcClaims != null && _accessToken.ValidTo > DateTime.Now;
+        public override bool IsAuthenticated => _kcClaims != null && _accessToken.ValidTo > DateTime.UtcNow;
 
         /// <summary>
         ///     Gets a value that indicates whether the identity has been updated since its instantiation
