@@ -1,10 +1,8 @@
-# THIS PROJECT IS NO LONGER BEING MAINTAINED
+# FORK OF THE MAIN PROJECT TO FIX SOME BUGS
 
 *Please use this project at your own risk. The software is provided as-is.*
 
-I have unfortunately ran out of time to continue with this project's continual development and maintenance, and cannot accept pull requests, fix issues, or answer in-depth technical questions.
-
-This project is in need of a maintainer, if you would like to become one please ask, email, or otherwise reach out to Dylan Plecki (djp at plecki dot net).
+Dylan Plecki, the developer of main project, has ran out of time to develop and maintenance this project. I decided to fork this project and continue his great work.
 
 ----------------------------------------------------------------------------------
 
