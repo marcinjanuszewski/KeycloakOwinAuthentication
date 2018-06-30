@@ -286,13 +286,8 @@ namespace KeycloakIdentityModel.Utilities
 
             // Add optional parameters
             if (!string.IsNullOrWhiteSpace(_options.ClientId))
-            {
-                parameters.Add(OpenIdConnectParameterNames.ClientId, _options.ClientId);
-
-                if (!string.IsNullOrWhiteSpace(_options.ClientSecret))
-                    parameters.Add(OpenIdConnectParameterNames.ClientSecret, _options.ClientSecret);
-            }
-
+                parameters.Add(OpenIdConnectParameterNames.ClientId, _options.ClientId);               
+            
             if (!string.IsNullOrWhiteSpace(_options.IdentityProvider))
                 parameters.Add(Constants.KeycloakParameters.IdpHint, _options.IdentityProvider);
 
